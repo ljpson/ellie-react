@@ -8,7 +8,7 @@ export default function AppProducts() {
     <div>
        <h2>*** 상품 목록 ***</h2>
       {showProducts && <Products />}
-      <button onClick={() => setShowProducts((show) => !show)}>Toggle</button>
+      <button onClick={() => setShowProducts((show) => !show)}>상품목록 {showProducts ? "닫기" : "보기"}</button>
     </div>
   );
 }
