@@ -64,7 +64,7 @@ function ProductDetail() {
           <span>Light Mode</span>
         )}
         </p>
-      <button onClick={() => toggleDarkMode()}>Toggle</button>
+      <button className='bg-yellow-500 rounded-xl px-2' onClick={() => toggleDarkMode()}>Toggle</button>
     </div>
   );
 }
