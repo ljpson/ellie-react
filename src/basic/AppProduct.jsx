@@ -6,7 +6,7 @@ export default function AppProducts() {
   const [showProducts, setShowProducts] = useState(true);
   return (
     <div>
-      <h2>*테스트 타이틀*</h2>
+       <h2>***테스트 타이틀***</h2>
       {showProducts && <Products />}
       <button onClick={() => setShowProducts((show) => !show)}>Toggle</button>
     </div>
