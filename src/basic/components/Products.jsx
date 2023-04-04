@@ -6,7 +6,7 @@ export default function Products() {
   const [count, setCount] = useState(0);
   const [checked, setChecked] = useState(false);
   const [loading, error, products] = useProducts({salesOnly: checked});
-  const handleChange = () => setChecked(prev => !prev);
+  const handleChange = () => setChecked((prev) => !prev);
 
 
   if(loading) return <p>Loadgin...</p>;
@@ -14,7 +14,7 @@ export default function Products() {
   if(error) return <p>{error}</p>
   return (
     <>
-      <input name="checkBox" type="checkbox" value={checked} onChange={handleChange}/>
+      <input name="checkBox" type="checkbox" checked={checked && checked} onChange={handleChange}/>
       <label htmlFor='checkBox'>Show Only 🔥 Sale</label>
       <ul>
         {products.map((product, index) => (
