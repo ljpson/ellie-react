@@ -9,7 +9,7 @@ export default function Products() {
   const handleChange = () => setChecked((prev) => !prev);
 
 
-  if(loading) return <p>Loadgin...</p>;
+  if(loading) return <p>Loading...</p>;
 
   if(error) return <p>{error}</p>
   return (
