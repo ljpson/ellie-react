@@ -81,7 +81,7 @@ root.render(
         <AppCard />
       </div>
     </div>
-
+    <TailwindComponent />
   </React.StrictMode>
 );
 
