@@ -27,7 +27,8 @@ export default function AppForm() {
                 name='email' 
                 value={form.email}
                 onChange={handleChange} />
-            <button>Submit</button>
+            <button class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-full px-3">
+                Submit</button>
         </form>
     );
 }

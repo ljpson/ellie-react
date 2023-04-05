@@ -47,6 +47,7 @@ const Button = memo(({ text, onClick }) => {
   return (
     <button
       onClick={onClick}
+      className='bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300'
       style={{
         backgroundColor: 'black',
         color: 'white',

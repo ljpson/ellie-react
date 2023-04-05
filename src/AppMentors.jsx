@@ -35,9 +35,9 @@ const [person, dispatch] = useReducer(personReducer, initialPerson);
           </li>
         ))}
       </ul>
-      <button onClick={handleUpdate}>멘토의 이름을 바꾸기</button>
-      <button onClick={handleAdd}>멘토 추가하기</button>
-      <button onClick={handleDelete}>멘토 삭제하기</button>
+      <button className='bg-blue-500 rounded-xl px-2' onClick={handleUpdate}>멘토의 이름을 바꾸기</button>
+      <button className='bg-blue-500 rounded-xl px-2' onClick={handleAdd}>멘토 추가하기</button>
+      <button className='bg-blue-500 rounded-xl px-2' onClick={handleDelete}>멘토 삭제하기</button>
     </div>
   );
 }

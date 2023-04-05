@@ -59,7 +59,7 @@
   border-radius: 100%;
 }
 
-.avatar {
+.avartar {
   position: relative;
   width: 200px;
   height: 200px;
@@ -78,7 +78,7 @@
 }
 
 .container {
-  width: 500px;
+  width: 100%;
   margin: auto;
 }
 
